@@ -56,7 +56,7 @@ print("""\033[1;33m
 op = input(">>> ")
 
 if op == "1":
-    n1 = int(imput("Premeiro numero:  "))
+    n1 = int(input("Premeiro numero:  "))
     n2 = int(input("Segundo Numero:   "))
     resultado = n1+n2
     print("O Resultado é: {}+{} = {}".format(n1, n2, resultado))
