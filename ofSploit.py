@@ -60,6 +60,8 @@ if op == "1":
     n2 = int(input("Segundo Numero:   "))
     resultado = n1+n2
     print("O Resultado é: {}+{} = {}".format(n1, n2, resultado))
+    time.sleep(7)
+    os.system("python3 ofSploit.py")
 elif op == "2":
     n1 = int(input("Premeiro numero: "))
     n2 = int(input("Segubdo numero: "))
