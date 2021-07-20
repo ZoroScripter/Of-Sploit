@@ -216,6 +216,7 @@ elif op == "32":
     Scripting By
     Zoro
     """)
+    time.sleep(7)
     os.system("python3 ofSploit.py")
 elif op == "33":
     os.system("clear")
